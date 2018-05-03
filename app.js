@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 
 app.get("/", (req, res) => {
-	res.send('Yooooooo');
+	res.render("home.ejs");
 });
 
 app.listen(3000, () => {
